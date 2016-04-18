@@ -230,34 +230,22 @@ function create_config( )
     "leave_ban",
 	"supergroup",
 	"whitelist",
-	"msg_checks"
+	"msg_checks",
+	"welcome"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {139328010},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
+    about_text = [[ورژن5
+    ربات مدیریت پیشرفته گروه 
+    با مدیریت زکریا رسولی
+    Admin/ادمین اصلی
+    @ZakariaR
+    
+    کانال
+    @ZakariaRasoli
+    
+    این ربات توسط زکریا رسولی تهیه و تنظیم شده است.
+    https://telegram.me/ZakariaR
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -341,6 +329,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+Admin: @ZakariaR
 ]],
     help_text = [[
 Commands list :
@@ -470,6 +460,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
+Admin: @ZakariaR
 ]],
 	help_text_super =[[
 SuperGroup Commands:
@@ -611,6 +602,7 @@ Returns group logs
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
 *Only owner can use res, setowner, promote, demote, and log commands
+Admins :@ZakariaR
 
 ]],
   }
