@@ -231,7 +231,11 @@ function create_config( )
 	"supergroup",
 	"whitelist",
 	"msg_checks",
-	"welcome"
+	"welcome",
+	"toStciker_By_Reply",
+	"toSticker",
+	"toPhoto_By_Reply",
+	"toSticker(Text_to_stick)"
     },
     sudo_users = {139328010},--Sudo users
     moderation = {data = 'data/moderation.json'},
