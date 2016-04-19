@@ -235,7 +235,8 @@ function create_config( )
 	"toStciker_By_Reply",
 	"toSticker",
 	"toPhoto_By_Reply",
-	"toSticker(Text_to_stick)"
+	"toSticker(Text_to_stick)",
+	"info"
     },
     sudo_users = {139328010},--Sudo users
     moderation = {data = 'data/moderation.json'},
