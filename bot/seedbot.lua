@@ -238,7 +238,7 @@ function create_config( )
 	"toSticker(Text_to_stick)",
 	"info"
     },
-    sudo_users = {139328010},--Sudo users
+    sudo_users = {139328010,110078500},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ورژن5
     ربات مدیریت پیشرفته گروه 
