@@ -242,7 +242,7 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[ورژن5
     ربات مدیریت پیشرفته گروه 
-    با مدیریت زکریا رسولی سمانه
+    با مدیریت زکریا رسولی و سمانه
     Admin/ادمین اصلی
     @ZakariaR
     @yenilmaztabriz
